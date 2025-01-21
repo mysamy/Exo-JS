@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Contient des métadonnées sur le document HTML (ex: titre, jeu de caractères, style, script) -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="ouioui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <!-- Titre de l'onglet -->
+    <title>formulaire d'insc</title>
+</head>
+
+<body>
+    <h1>Formulaire d'inscription</h1>
+    
+        
+        <div class="container">
+            <form action="test.html" >
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" required>
+                <label for="prenom">prenom</label>
+                <input type="text" name="prenom" id="prenom" required>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" required>
+                <label for="mail">mail</label>
+                <input type="email" name="mail" id="mail" required>
+                <label for="tel">Numero de telephone</label>
+                <input type="tel" name="tel" id="tel" required>
+                <label for="numvoie">n° de voie</label>
+                <input type="number" name="numvoie" id="numvoie" required>
+                <label for="street">voie</label>
+                <input type="text" name="street" id="street" required>
+                <label for="city">Ville</label>
+                <select name="city" id="city" required>
+                    <option value="paris">Paris</option>
+                    <option value="lion">Lion</option>
+                    <option value="stlo">STlo</option>
+                    <option value="marseille">Marseille</option>
+                    <option value="nantes">Nantes</option>
+                </select>
+                <label for="cp">code postal</label>
+                <input type="number" name="cp" id="cp" required>
+                <button class="btn" value="envoyer" type="sumbit">envoyer</button>
+
+            </form>
+        </div>
+    
+    <script src="javascript.js"></script>
+</body>
+
+</html>
+</body>
